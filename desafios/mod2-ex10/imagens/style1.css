@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    background-color: lightgray;
+}
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+img{
+    width: 100%;
+}

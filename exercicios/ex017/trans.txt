@@ -1,0 +1,5 @@
+shorthand font:
+font style,font weight,font size,font family
+font format:
+opentype(otf)
+truetype(ttf)
