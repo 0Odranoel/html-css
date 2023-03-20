@@ -38,6 +38,7 @@ section{
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte02);
+    font-size: 4vw;
 }
 .imagem{
     background-color: rgba(102, 99, 99, 0.311);
@@ -50,7 +51,8 @@ section{
 #img01{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.681);
 }
 #img02{
