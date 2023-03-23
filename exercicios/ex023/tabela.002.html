@@ -1,12 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br ">
+<html lang="PT-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela semantica</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            padding: 15px;
+            background-color: rgb(109, 106, 101);
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tbody >tr:nth-child(2n){
+            background-color: rgb(172, 172, 172);
+        }
+        thead{
+            background-color: gray;
+            color: white;
+            position: sticky;
+        }
+        thead > tr > th{
+            position: sticky;
+            background-color: gray;
+            top: -1px;
+        }
+        td{
+            width: 50px;
+        }
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+    <h1>trabalhando com tabelas</h1>
+    <table>
+        <caption>Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">cidade</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tobdy>
+            <tr>
+                <th>São paulo</th>
+                <td>46 024 937	</td>
+            </tr>
+            <tr>
+                <th>Minas Gerais</th>
+                <td>19 597 330</td>
+            </tr>
+            <tr>
+                <th>Rio de Janeiro</th>
+                <td>15 989 929</td>
+            </tr>
+            <tr>
+                <th>Bahia</th>
+                <td>14 016 906</td>
+            </tr>
+            <tr>
+                <th>Paraná</th>
+                <td>10 444 526</td>
+            </tr>
+            <tr>
+                <th>Rio Grande do Sul</th>
+                <td>10 693 929</td>
+            </tr>
+            <tr>
+                <th>Pernambuco</th>
+                <td>8 796 448</td>
+            </tr>
+            <tr>
+                <th>Ceará</th>
+                <td>8 452 381</td>
+            </tr>
+            <tr>
+                <th>Pará</th>
+                <td>7 581 051</td>
+            </tr>
+            <tr>
+                <th>Santa Catarina</th>
+                <td>6 248 436</td>
+            </tr>
+            <tr>
+                <th>Goiás</th>
+                <td>6 003 788</td>
+            </tr>
+            <tr>
+                <th> Maranhão</th>
+                <td>6 574 789</td>
+            </tr>
+            <tr>
+                <th>Espírito Santo</th>
+                <td>3 514 952</td>
+            </tr>
+            <tr>
+                <th> Paraíba</th>
+                <td>3 766 528</td>
+            </tr>
+            <tr>
+                <th>Amazonas</th>
+                <td>3 483 985</td>
+            </tr>
+        </tobdy>
+        <tfoot>
+            <tr>
+                <th scope="row">Quantidade</th>
+                <td><strong>???</strong></td>
+            </tr>
+        </tfoot>
+    </table>
     
 </body>
 </html>
