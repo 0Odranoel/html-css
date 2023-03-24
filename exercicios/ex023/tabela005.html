@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <Style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .coluna1{
+            background-color: rgb(182, 75, 75);
+        }
+        .coluna2{
+            background-color: aqua;
+        }
+        .coluna3{
+            background-color: bisque;
+        }
+        .coluna4{
+            background-color: blue  ;
+        }
+    </Style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="coluna1">
+            <col class="coluna2">
+            <col class="coluna3">
+            <col class="coluna4">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>Gender Fluid</td>
+            <td>21</td>
+            <td>Artista</td>
+        </tr>
+        <tr>
+            <td>Giovanni</td>
+            <td>F</td>
+            <td>15</td>
+            <td>Cafetina</td>
+        </tr>
+        <tr>
+            <td>Vite</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Viterinário</td>
+        </tr>
+        <tr>
+            <td>Pedre</td>
+            <td>Trans</td>
+            <td>47</td>
+            <td>Home office na empresta Ricardo INC.</td>
+        </tr>
+    </table>
+</body>
+</html>
