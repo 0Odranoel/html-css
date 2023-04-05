@@ -9,8 +9,9 @@
 <body>
     <h1>Meu primeiro formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="off">
-        <p><label for="nome">Nome</label>: <input type="text" name="nome" id="nome"></p>
-        <p><label for="Sobrenome">Sobrenome</label>: <input type="text" name="Sobrenome" id="Sobrenome"></p>
+        <p><label for="nome">Nome</label>: <input type="text" name="nome" id="nome" minlength="8" maxlength="15"></p>
+        <p><label for="Sobrenome">Sobrenome</label>: <input type="text" name="Sobrenome" id="Sobrenome" minlength="8" maxlength="15"></p>
+        <p><label for="senha">Senha:</label><input type="password" name="senha" id="senha"></p>
         <input type="submit" value="Enviar">
     </form>
 </body>
