@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulários</h1>
+    <form action="##" method="post" autocomplete="off">
+        <fieldset >
+            <legend>Dados pessoais</legend>
+            <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" placeholder="Nome do usuário" autocomplete="username"></p>
+            <p><label for="imail">E-mail:</label> <input type="email" name="mail" id="imail" autocomplete="email"></p>
+            <p><label for="itel">Telefone:</label> <input type="tel" name="tel" id="itel" placeholder="(xx)xxxxx-xxxx" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">   </label></p>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+    </form>
+</body>
+</html>
