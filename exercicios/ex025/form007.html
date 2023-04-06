@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="##" method="post" autocomplete="noff">
+        <p>
+            <label for="itam">Tamanho de camisas:</label>
+            <select name="tamanho" id="itam">
+            <optgroup label="Tamanho das camisas">
+                <option value="P" selected>Pequena</option>
+                <option value="M">Média</option>
+                <option value="G">Grande</option>
+                <option value="GG">Extra Grande</option>
+            </optgroup>
+            </select>
+        </p>
+        <label for="itot">Total de camisas P/M/G/GG</label>
+        <select name="Total" id="itot">
+            <optgroup label="Quantidade de camisas">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="Mais" selected>Mais de 5</option>
+            </optgroup>
+        </select>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="carreiras">
+            <datalist id="carreiras">
+                <option >Admnistrador</option>
+                <option >Desenvolvedor</option>
+                <option >Artista</option>
+                <option >Pintor</option>
+            </datalist>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+        <p>
+            <label for="imen">Mensagem</label> <BR>
+            <textarea name="Mensagem" id="imen" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+</html>
