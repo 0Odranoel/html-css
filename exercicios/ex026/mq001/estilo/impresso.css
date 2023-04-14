@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
+article::after{
+    content: "Este artigo foi criado por Leonardo Maciel Vieira";
+}
