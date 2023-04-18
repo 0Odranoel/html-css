@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media print{
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+    #celular{display: none;}
+    #computador{display: none;}
+    #tablet{display:none;}
+    #impressora{display: block; margin:auto;}
+    #TV{display: none;}
+    main{
+        border: 1px solid black;
+    }
+    main::after{
+        content: 'Desenvolvido por Leonardo Maciel Vieira';
+        font-weight: bolder;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #celular{display: none;}
+    #computador{display: none;}
+    #tablet{display: block; margin:auto}
+    #impressora{display:none;}
+    #TV{display: none;}
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #celular{display: none;}
+    #computador{display: block;margin: auto;}
+    #tablet{display:none;}
+    #impressora{display:none;}
+    #TV{display: none;}
+}
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #celular{display: none;}
+    #computador{display:none;}
+    #tablet{display:none;}
+    #impressora{display:none;}
+    #TV{display:block;margin: auto;}
+}

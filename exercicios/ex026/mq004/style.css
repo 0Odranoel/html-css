@@ -18,25 +18,14 @@ body{
 }
 main{
     background-color: rgba(255, 255, 255, 0.533);
-    width: 90vw;
+    width: 400px;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
     margin-top: 20px;
 }
-#celular{
-    display: block;
-    margin: auto;
-}
-#computador{
-    display: none;
-}
-#tablet{
-    display: none;
-}
-#impressora{
-    display: none;
-}
-#TV{
-    display: none;
-}
+#celular{display: block;margin: auto;}
+#computador{display: none;}
+#tablet{display: none;}
+#impressora{display: none;}
+#TV{display: none;}
