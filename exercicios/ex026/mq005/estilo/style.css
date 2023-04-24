@@ -29,10 +29,10 @@ header > h1{
     padding: 10px;
 }
 menu{
-    text-align: center;
-    display: none;
 }
-header > menu > ul > a > li{
+menu > ul > a > li {
+    display: block;
+    text-align: center;
     padding: 10px;
     border-top: 1px solid rgb(213, 211, 211);
 }

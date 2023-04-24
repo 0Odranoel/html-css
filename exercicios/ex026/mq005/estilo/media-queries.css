@@ -7,4 +7,11 @@
     menu{
         display: block;
     }
+    menu > ul > a > li{
+        display: inline;
+    }
+
+    main{
+        width: 768px;
+    }
 }
