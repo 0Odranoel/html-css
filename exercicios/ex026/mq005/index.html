@@ -12,14 +12,16 @@
 <body onresize="mostrarmenu()">
     <header>
         <h1>Meu site</h1>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <span class="material-symbols-outlined" id="menur" onclick="menuinterativo()">menu</span>
             <menu id="itens">
                 <ul>
-                    <a href="##"><li>opção1</li></a>
-                    <a href="##"><li>opção2</li></a>
-                    <a href="##"><li>opção3</li></a>
-                    <a href="##"><li>opção4</li></a>
-                    <a href="##"><li>opção5</li></a>
+                   <li><a href="##">Opcao1</a></li>
+                   <li><a href="##">Opcao1</a></li>
+                   <li><a href="##">Opcao1</a></li>
+                   <li><a href="##">Opcao1</a></li>
+                   <li><a href="##">Opcao1</a></li>
+                   <li><a href="##">Opcao1</a></li>
+                   
                 </ul>
             </menu>
     </header>
@@ -41,21 +43,21 @@
         </article>
     </main>
     <script>
-        function clickMenu(){
-            if (itens.style.display == 'block'){
-                itens.style.display = 'none'
-            } else{
-                itens.style.display = 'block'
-            }
-            
+        function menuinterativo(){
+         if(itens.style.display=='block'){
+            itens.style.display='none'
+         }else {
+            itens.style.display='block'
+         }
         }
         function mostrarmenu(){
-            if (window.innerWidth >=768){
-              itens.style.display = 'block'}
-            else{
-              itens.style.display = 'none'
+            if(window.innerWidth >=768){
+                itens.style.display ='block'
+            }else{
+                itens.style.display ='none'
             }
         }
+
     </script>
 </body>
 </html>
